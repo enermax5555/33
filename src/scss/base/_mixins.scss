@@ -47,3 +47,6 @@
   ::-moz-placeholder          {@content}
   :-ms-input-placeholder      {@content}
 }
+@mixin frost($intensity) {
+$frost: blur($intensity);
+}
