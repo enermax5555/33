@@ -49,5 +49,5 @@
 }
 @mixin frost($intensity) {
 $frost: blur($intensity);
-backdrop-filter: blur($intensity);
+$backdrop-filter: blur($intensity);
 }
